@@ -170,7 +170,8 @@ async function renderBookDetail(targetSelector) {
           <p class="eyebrow">${book.author}</p>
           <h1>${book.title}</h1>
           <div class="book-meta">
-            <span>Letto a ${formatDate(book.dateFinished)}</span>
+            <span>Iniziato il ${formatDate(book.dateStarted)}</span>
+            <span>Terminato il ${formatDate(book.dateFinished)}</span>
             <span class="book-rating">${"★".repeat(book.rating)}${"☆".repeat(5 - book.rating)}</span>
           </div>
           <p>${book.review}</p>
