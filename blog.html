@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Lorenzo Luccardi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <a href="index.html" class="site-logo">Lorenzo Luccardi</a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Apri il menu">
+      <span></span>
+    </button>
+    <ul class="nav-links" data-open="false">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html" aria-current="page">Blog</a></li>
+      <li><a href="wishlist.html">Wishlist</a></li>
+      <li><a href="libri.html">Libri</a></li>
+    </ul>
+  </nav>
+
+  <main class="page page-narrow">
+    <h1>Blog</h1>
+    <p class="eyebrow">Commenti e riflessioni su articoli di giornale</p>
+    <div class="post-list" id="all-posts">
+      <p class="state-message">Caricamento articoli…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Lorenzo Luccardi</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    renderPostList("#all-posts");
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Se una notte d'inverno un viaggiatore",
+    "author": "Italo Calvino",
+    "dateFinished": "2026-06-02",
+    "rating": 5,
+    "review": "Un romanzo che gioca continuamente con il patto tra lettore e narratore. Da rileggere."
+  },
+  {
+    "id": 2,
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "dateFinished": "2026-07-14",
+    "rating": 4,
+    "review": "Malinconico e delicato, con quell'atmosfera sospesa tipica di Murakami."
+  },
+  {
+    "id": 3,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "dateFinished": "2026-08-20",
+    "rating": 4,
+    "review": "Una panoramica ambiziosa sulla storia dell'umanità, a tratti semplificata ma stimolante."
+  }
+]

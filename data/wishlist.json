@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Lampada da lettura",
+    "price": "€ 39",
+    "image": "assets/placeholder.svg",
+    "buyUrl": "https://example.com/prodotto-1"
+  },
+  {
+    "name": "Taccuino in tela",
+    "price": "€ 18",
+    "image": "assets/placeholder.svg",
+    "buyUrl": "https://example.com/prodotto-2"
+  },
+  {
+    "name": "Set penne stilografiche",
+    "price": "€ 64",
+    "image": "assets/placeholder.svg",
+    "buyUrl": "https://example.com/prodotto-3"
+  }
+]

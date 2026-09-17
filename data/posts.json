@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-09-10",
+    "title": "Perché ripartire da zero, senza framework",
+    "excerpt": "Qualche riflessione sul commento a un articolo letto questa settimana, e sul perché capire ogni riga del proprio sito valga il tempo investito.",
+    "url": "blog.html",
+    "sourceUrl": "https://example.com/articolo-originale"
+  },
+  {
+    "date": "2026-08-28",
+    "title": "Un commento su un pezzo di attualità",
+    "excerpt": "Breve nota a margine di un articolo di giornale, con qualche considerazione personale.",
+    "url": "blog.html",
+    "sourceUrl": "https://example.com/altro-articolo"
+  }
+]
