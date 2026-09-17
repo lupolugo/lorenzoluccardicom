@@ -7,7 +7,7 @@
     "dateFinished": "2026-06-02",
     "rating": 5,
     "review": "Un romanzo che gioca continuamente con il patto tra lettore e narratore. Da rileggere.",
-    "cover": "/assets/placeholder.svg"
+    "image": "assets/placeholder.svg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "dateFinished": "2026-07-14",
     "rating": 4,
     "review": "Malinconico e delicato, con quell'atmosfera sospesa tipica di Murakami.",
-    "cover": "/assets/placeholder.svg"
+    "image": "assets/placeholder.svg"
   },
   {
     "id": 3,
@@ -27,6 +27,6 @@
     "dateFinished": "2026-08-20",
     "rating": 4,
     "review": "Una panoramica ambiziosa sulla storia dell'umanità, a tratti semplificata ma stimolante.",
-    "cover": "/assets/placeholder.svg"
+    "image": "assets/placeholder.svg"
   }
 ]
