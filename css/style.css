@@ -8,7 +8,7 @@
   --bg: #14171c;
   --bg-elevated: #1b1f26;
   --bg-elevated-2: #21262f;
-  --bg-navlink: rgba(44, 50, 60, 0.2);
+  --bg-navlink: #14171c50;
   --text: #ece8e1;
   --text-muted: #8b92a0;
   --accent: #d9a15c;
@@ -232,22 +232,16 @@ button {
     transform: translateX(0);
   }
 
+  /*All'apertura dell'hamburger gestione righe menu*/
   .nav-links li {
     display: block;
     width: 100%;
     padding: 1rem 0;
     border-bottom: 1px solid var(--line);
-    font-size: var(--step1);
+    font-size: var(--step-1);
     background: var(--accent-soft);
   }
 
-  .nav-links a {
-    display: block;
-    width: 100%;
-    padding: 1rem 0;
-    border-bottom: 1px solid var(--line);
-    font-size: var(--step1);
-  }
 }
 
 /* ==========================================================================
