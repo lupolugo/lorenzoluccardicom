@@ -199,7 +199,7 @@ button {
 }
 
 .nav-toggle[aria-expanded="true"] span {
-  background: var(--accent-soft);
+  background: transparent;
 }
 
 .nav-toggle[aria-expanded="true"] span::before {
