@@ -247,7 +247,7 @@ button {
     border-bottom: 1px solid var(--line);
     font-size: var(--step-1);
     background: var(--bg-navlink);
-    padding: 3% 0% 3% 1%;
+    padding: 3% 0% 5% 1%;
   }
 
 }
