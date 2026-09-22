@@ -134,9 +134,9 @@ async function renderBooksGrid(targetSelector) {
             <img src="${book.image}" alt="${book.title}" loading="lazy" />
           </div>
           <div class="book-title">${book.title}</div>
-        </div>
           <div class="book-author">${book.author}</div>
-        </a>`
+        </a>
+        </div>`
       )
       .join("");
   } catch (err) {
