@@ -408,7 +408,12 @@ button {
 /* ==========================================================================
    LIBRI
    ========================================================================== */
-   
+.book-year {
+  color: var(--text-muted);
+  font-size: var(--step-1);
+  font-variant-numeric: tabular-nums;
+}
+ 
 .books-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
