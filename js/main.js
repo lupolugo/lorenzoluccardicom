@@ -128,7 +128,7 @@ async function renderBooksGrid(targetSelector) {
     target.innerHTML = books
       .map(
         (book) => `
-        <div class="book-year">${book.year}</div> 
+        <div class="book-year">${book.year} 
         <a class="book-item" href="libro.html?id=${book.id}">
           <div class="book-spine">        
             <div class="book-cover">
@@ -138,7 +138,8 @@ async function renderBooksGrid(targetSelector) {
             <div class="book-subtitle">${book.subtitle}</div>
             <div class="book-author">${book.author}</div>
          </div>
-        </a>`
+        </a>
+        </div>`
       )
       .join("");
   } catch (err) {
