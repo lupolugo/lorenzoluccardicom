@@ -128,15 +128,15 @@ async function renderBooksGrid(targetSelector) {
     target.innerHTML = books
       .map(
         (book) => `
-        <div class="book-item">
-        <a class="book-spine" href="libro.html?id=${book.id}">
-          <div class="book-cover">
-            <img src="${book.image}" alt="${book.title}" loading="lazy" />
-          </div>
-          <div class="book-title">${book.title}</div>
-          <div class="book-author">${book.author}</div>
-        </a>
-        </div>`
+        <a class="book-item" href="libro.html?id=${book.id}">
+          <div class="book-spine">        
+            <div class="book-cover">
+              <img src="${book.image}" alt="${book.title}" loading="lazy" />
+            </div>
+            <div class="book-title">${book.title}</div>
+            <div class="book-author">${book.author}</div>
+         </div>
+        </a>`
       )
       .join("");
   } catch (err) {
