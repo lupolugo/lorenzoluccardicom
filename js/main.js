@@ -167,6 +167,7 @@ async function renderBookDetail(targetSelector) {
 
     target.innerHTML = `
       <div class="book-detail">
+        <p>${book.year}</p>
         <div class="book-cover">
         <img src="${book.image}" alt="${book.title}" loading="lazy" />
         </div>
