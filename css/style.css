@@ -428,6 +428,7 @@ button {
   flex-direction: column;
   gap: 0.75rem;
 }
+
 .book-cover {
   aspect-ratio: 2 / 3;
   background: var(--bg-elevated);
@@ -438,7 +439,11 @@ button {
   padding: 0%;
   margin-bottom: 0.6rem;
   transition: border-color 0.2s ease;
-  object-fit: cover
+}
+
+.book-cover img{
+  object-fit: cover;
+  min-height: 100%;
 }
 
 .book-item:hover {
