@@ -125,44 +125,20 @@ async function renderBooksGrid(targetSelector) {
       return;
     }
 
-    const groupedByYear = books.reduce((acc, book) => {
-      const year = Number(book.year);
-      if (!acc[year]) acc[year] = {};
-      acc[year][book.id] = book;
-      return acc;
-    }, {});
-
-    const years = Object.keys(groupedByYear)
-      .map(Number)
-      .sort((a, b) => b - a);
-
-    target.innerHTML = years
-      .map((year) => {
-        const ids = Object.keys(groupedByYear[year]).sort((a, b) => Number(b) - Number(a));
-
-        return `
-          <section class="books-year-group">
-            <h2 class="books-year-title">${year}</h2>
-            <div class="books-year-list">
-              ${ids
-                .map((id) => {
-                  const book = groupedByYear[year][id];
-                  return `
-                    <a class="book-item" href="libro.html?id=${book.id}">
-                      <div class="book-spine">
-                        <div class="book-cover">
-                          <img src="${book.image}" alt="${book.title}" loading="lazy" />
-                        </div>
-                        <div class="book-title">${book.title}</div>
-                        <div class="book-subtitle">${book.subtitle}</div>
-                        <div class="book-author">${book.author}</div>
-                      </div>
-                    </a>`;
-                })
-                .join("")}
+    target.innerHTML = books
+      .map(
+        (book) => `
+        <a class="book-item" href="libro.html?id=${book.id}">
+          <div class="book-spine">        
+            <div class="book-cover">
+              <img src="${book.image}" alt="${book.title}" loading="lazy" />
             </div>
-          </section>`;
-      })
+            <div class="book-title">${book.title}</div>
+            <div class="book-subtitle">${book.subtitle}</div>
+            <div class="book-author">${book.author}</div>
+         </div>
+        </a>`
+      )
       .join("");
   } catch (err) {
     target.innerHTML = '<p class="state-message">Errore nel caricamento dei libri.</p>';
@@ -181,12 +157,6 @@ async function renderBookDetail(targetSelector) {
   try {
     const books = await loadJSON("data/libri.json");
     const book = books.find((b) => String(b.id) === id);
-    const groupedByYear = books.reduce((acc, book) => {
-      const year = Number(book.year);
-      if (!acc[year]) acc[year] = [];
-      acc[year].push(book);
-      return acc;
-    }, {});
 
     if (!book) {
       target.innerHTML = '<p class="state-message">Libro non trovato.</p>';

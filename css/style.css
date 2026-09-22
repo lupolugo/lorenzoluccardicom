@@ -408,32 +408,7 @@ button {
 /* ==========================================================================
    LIBRI
    ========================================================================== */
-.books-year-group {
-  margin: 1.25rem 0 0;
-  padding-top: 0.6rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-.books-year-title {
-  display: inline-block;
-  margin: 0 0 0.75rem;  
-  padding: 0.3rem 0.7rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #2a2a2a;
-  background: rgba(120, 120, 120, 0.08);
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 999px;
-}
-
-.books-year-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 0.9rem;
-}
-
+   
 .books-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
