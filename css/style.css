@@ -435,9 +435,10 @@ button {
   border-radius: var(--radius);
   display: flex;
   align-items: flex-start;
-  padding: 1rem;
+  padding: 0%;
   margin-bottom: 0.6rem;
   transition: border-color 0.2s ease;
+  object-fit: cover
 }
 
 .book-item:hover {
