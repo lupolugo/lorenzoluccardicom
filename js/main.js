@@ -168,11 +168,12 @@ async function renderBookDetail(targetSelector) {
     target.innerHTML = `
       <div class="book-detail">
         <div class="book-cover">
-          <div class="book-cover-title">${book.title}</div>
+        <img src="${book.image}" alt="${book.title}" loading="lazy" />
         </div>
         <div>
           <p class="eyebrow">${book.author}</p>
           <h1>${book.title}</h1>
+          <h2>${book.subtitle}</h2>
           <div class="book-meta">
             <span>Iniziato il ${formatDate(book.dateStarted)}</span>
             <span>Terminato il ${formatDate(book.dateFinished)}</span>
