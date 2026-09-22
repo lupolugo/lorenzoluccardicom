@@ -72,30 +72,30 @@
     "author": "Enrico Brizzi",
     "dateStarted": "2026-07-26",
     "dateFinished": "2026-08-06",
-    "rating": 4,
+    "rating": 5,
     "review": " ",
     "image": "https://media.anobii.com/covers/01b9c1ff6f501c7a65/300/446/1.5/paperback/webp/1711112550"
   },
   {
     "id": 8,
-    "title": "Sapiens",
-    "subtitle": "Il nuovo potere mondiale visto da vicino",
-    "author": "Yuval Noah Harari",
+    "title": "Magnifica Humanitas",
+    "subtitle": "Lettera Enciclica sulla custodia della persona umana nel tempo dell’intelligenza artificiale",
+    "author": "Papa Leone XIV",
     "dateStarted": "2026-06-02",
     "dateFinished": "2026-08-20",
     "rating": 4,
     "review": "Una panoramica ambiziosa sulla storia dell'umanità, a tratti semplificata ma stimolante.",
-    "image": "assets/placeholder.svg"
+    "image": "https://media.anobii.com/covers/01358e2826079a74aa/300/423/1.5/paperback/webp/1779778816"
   },
   {
     "id": 9,
-    "title": "Sapiens",
-    "subtitle": "Il nuovo potere mondiale visto da vicino",
-    "author": "Yuval Noah Harari",
-    "dateStarted": "2026-06-02",
-    "dateFinished": "2026-08-20",
+    "title": "Il giovane Holden",
+    "subtitle": " ",
+    "author": "J.D. Salinger",
+    "dateStarted": "2026-08-29",
+    "dateFinished": "2026-09-15",
     "rating": 4,
     "review": "Una panoramica ambiziosa sulla storia dell'umanità, a tratti semplificata ma stimolante.",
-    "image": "assets/placeholder.svg"
+    "image": "https://media.anobii.com/covers/01724c72f2b84e7305_1/300/490/1.5/paperback/webp/1753344511"
   }
 ]
