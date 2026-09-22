@@ -357,9 +357,7 @@ button {
 .wishlist-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 2px;
-  background: var(--line);
-  border: 1px solid var(--line);
+  gap: 1%;
 }
 
 .wishlist-item {
