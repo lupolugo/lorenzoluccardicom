@@ -423,6 +423,7 @@ button {
 .book-item {
   background: var(--bg-elevated);
   padding: 1.5rem;
+  border: 1px solid var(--line);
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
