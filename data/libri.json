@@ -1,17 +1,19 @@
 [
   {
     "id": 1,
-    "title": "Se una notte d'inverno un viaggiatore",
-    "author": "Italo Calvino",
-    "dateStarted": "2026-06-02",
-    "dateFinished": "2026-06-02",
-    "rating": 5,
-    "review": "Un romanzo che gioca continuamente con il patto tra lettore e narratore. Da rileggere.",
-    "image": "assets/placeholder.svg"
+    "title": "L'ora dei predatori",
+    "subtitle": "Il nuovo potere mondiale visto da vicino",
+    "author": "Giuliano da Empoli",
+    "dateStarted": "2026-01-04",
+    "dateFinished": "2026-01-18",
+    "rating": 4.5,
+    "review": "",
+    "image": "https://media.anobii.com/covers/01ffa1a24afd22d55d/300/462/1.5/ebook/webp/1759741427"
   },
   {
     "id": 2,
     "title": "Norwegian Wood",
+    "subtitle": "Il nuovo potere mondiale visto da vicino",
     "author": "Haruki Murakami",
     "dateStarted": "2026-06-02",
     "dateFinished": "2026-07-14",
@@ -22,6 +24,7 @@
   {
     "id": 3,
     "title": "Sapiens",
+    "subtitle": "Il nuovo potere mondiale visto da vicino",
     "author": "Yuval Noah Harari",
     "dateStarted": "2026-06-02",
     "dateFinished": "2026-08-20",

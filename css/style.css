@@ -20,6 +20,7 @@
   --font-body: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
 
   /* Scala tipografica (rapporto ~1.25) */
+  --step-2: 0.55rem;
   --step-1: 0.85rem;
   --step0: 1rem;
   --step1: 1.25rem;
@@ -455,6 +456,16 @@ button {
   font-style: italic;
   font-size: var(--step0);
   line-height: 1.25;
+}
+
+.book-subtitle {
+  display: flex;
+  align-items: flex-end;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--step-2);
+  line-height: 1.25;
+  color: var(--text-muted);
 }
 
 .book-author {
