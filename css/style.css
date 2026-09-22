@@ -20,7 +20,7 @@
   --font-body: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
 
   /* Scala tipografica (rapporto ~1.25) */
-  --step-2: 0.55rem;
+  --step-2: 0.65rem;
   --step-1: 0.85rem;
   --step0: 1rem;
   --step1: 1.25rem;
@@ -421,7 +421,7 @@ button {
 
 .book-item {
   background: var(--bg-elevated);
-  padding: 1.5rem;
+  padding: 0.5rem;
   border: 1px solid var(--line);
   display: flex;
   flex-direction: column;
