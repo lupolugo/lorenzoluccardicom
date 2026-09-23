@@ -96,11 +96,35 @@
     "image": "https://media.anobii.com/covers/01358e2826079a74aa/300/423/1.5/paperback/webp/1779778816"
   },
   {
+    "id": 4,
+    "title": "Il giovane Holden",
+    "subtitle": " ",
+    "author": "J.D. Salinger",
+    "year": "2025",
+    "dateStarted": "2026-08-29",
+    "dateFinished": "2026-09-15",
+    "rating": 4,
+    "review": "Una panoramica ambiziosa sulla storia dell'umanità, a tratti semplificata ma stimolante.",
+    "image": "https://media.anobii.com/covers/01724c72f2b84e7305_1/300/490/1.5/paperback/webp/1753344511"
+  },
+  {
     "id": 9,
     "title": "Il giovane Holden",
     "subtitle": " ",
     "author": "J.D. Salinger",
     "year": "2026",
+    "dateStarted": "2026-08-29",
+    "dateFinished": "2026-09-15",
+    "rating": 4,
+    "review": "Una panoramica ambiziosa sulla storia dell'umanità, a tratti semplificata ma stimolante.",
+    "image": "https://media.anobii.com/covers/01724c72f2b84e7305_1/300/490/1.5/paperback/webp/1753344511"
+  },
+  {
+    "id": 9,
+    "title": "Il giovane Holden",
+    "subtitle": " ",
+    "author": "J.D. Salinger",
+    "year": "2025",
     "dateStarted": "2026-08-29",
     "dateFinished": "2026-09-15",
     "rating": 4,
