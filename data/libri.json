@@ -46,7 +46,7 @@
     "rating": 4,
     "review": "",
     "image": "https://media.anobii.com/covers/0153c67b1aa3dd6d57/300/430/1.5/paperback/webp/1384970212"
-  }, 
+  },
   {
     "id": 202605,
     "title": "Il vangelo secondo Gesù Cristo",
@@ -59,7 +59,7 @@
     "review": " ",
     "image": "https://media.anobii.com/covers/010acefde5173b7960/300/485/1.5/paperback/webp/1450848482"
   },
- {
+  {
     "id": 202604,
     "title": "Il giorno della civetta",
     "subtitle": " ",
@@ -70,7 +70,7 @@
     "rating": 4,
     "review": " ",
     "image": "https://media.anobii.com/covers/01265fd8822563430e/300/492/1.5/paperback/webp/1257941580"
-  }, 
+  },
   {
     "id": 202603,
     "title": "L'uomo come fine",
@@ -250,8 +250,8 @@
     "rating": 4,
     "review": " ",
     "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1679380435i/123285301.jpg"
-  }
-   {
+  },
+  {
     "id": 202408,
     "title": "Vestivamo alla marinara",
     "subtitle": "",
@@ -275,7 +275,6 @@
     "review": "",
     "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1359934059i/12511860.jpg"
   },
-
   {
     "id": 202406,
     "title": "Ogni prigione è un'isola",
