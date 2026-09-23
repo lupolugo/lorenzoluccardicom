@@ -108,6 +108,42 @@
     "image": "https://media.anobii.com/covers/01a2d04e713c748721/300/466/1.5/ebook/webp/1465302702"
   },
   {
+    "id": 202512,
+    "title": "L'uomo duplicato",
+    "subtitle": " ",
+    "author": "Josè Saramago",
+    "year": "2025",
+    "dateStarted": "2026-10-26",
+    "dateFinished": "2026-12-15",
+    "rating": 4,
+    "review": "",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1753729693i/239424536.jpg"
+  },
+  {
+    "id": 202511,
+    "title": "L'affaire Moro",
+    "subtitle": " ",
+    "author": "Leonardo Sciascia",
+    "year": "2025",
+    "dateStarted": "2026-08-22",
+    "dateFinished": "2026-10-26",
+    "rating": 4,
+    "review": "",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1411248250i/7132427.jpg"
+  },
+  {
+    "id": 202510,
+    "title": "Cosi uccidemmo il commissario Calabresi",
+    "subtitle": " ",
+    "author": "Leonardo Marino",
+    "year": "2025",
+    "dateStarted": "2026-07-29",
+    "dateFinished": "2026-08-22",
+    "rating": 4,
+    "review": "",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1360859883i/4057613.jpg"
+  },
+  {
     "id": 202509,
     "title": "Fontamara",
     "subtitle": " ",
@@ -127,15 +163,15 @@
     "year": "2025",
     "dateStarted": "2025-05-01",
     "dateFinished": "2025-03-04",
-    "rating": 4,
+    "rating": 5,
     "review": " ",
-    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1328625521i/1070723.jpg"
+    "image": "https://media.anobii.com/covers/01a5cb51c412448421/300/481/1.5/paperback/webp/1684101270"
   },
   {
     "id": 202507,
     "title": "Duri a Marsiglia",
-    "subtitle": "Gian Carlo Fusco",
-    "author": "Giuliano da Empoli",
+    "subtitle": "",
+    "author": "Gian Carlo Fusco",
     "year": "2025",
     "dateStarted": "2025-04-12",
     "dateFinished": "2025-04-30",
@@ -215,5 +251,102 @@
     "rating": 4,
     "review": " ",
     "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1679380435i/123285301.jpg"
+  }
+   {
+    "id": 202408,
+    "title": "Vestivamo alla marinara",
+    "subtitle": "",
+    "author": "Susanna Agnelli",
+    "year": "2024",
+    "dateStarted": "2024-12-22",
+    "dateFinished": "2025-01-05",
+    "rating": 5,
+    "review": " ",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1520528832i/39082842.jpg"
+  },
+  {
+    "id": 202407,
+    "title": "Gomorra",
+    "subtitle": "Viaggio nell'impero economico e nel sogno di dominio della camorra",
+    "author": "Roberto Saviano",
+    "year": "2024",
+    "dateStarted": "2024-06-21",
+    "dateFinished": "2024-09-03",
+    "rating": 4,
+    "review": "",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1359934059i/12511860.jpg"
+  },
+
+  {
+    "id": 202406,
+    "title": "Ogni prigione è un'isola",
+    "subtitle": " ",
+    "author": "Daria Bignardi",
+    "year": "2024",
+    "dateStarted": "2024-06-27",
+    "dateFinished": "2024-06-30",
+    "rating": 5,
+    "review": "",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1709604136i/209495408.jpg"
+  },
+  {
+    "id": 202405,
+    "title": "Frontiera",
+    "subtitle": "perché sarà un nuovo secolo americano",
+    "author": "Francesco Costa",
+    "year": "2024",
+    "dateStarted": "",
+    "dateFinished": "",
+    "rating": 4,
+    "review": " ",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1709115076i/208926793.jpg"
+  },
+  {
+    "id": 202404,
+    "title": "Fare il doppio in metà tempo",
+    "subtitle": " ",
+    "author": "Jeff Sutherland",
+    "year": "2024",
+    "dateStarted": "2024-01-01",
+    "dateFinished": "",
+    "rating": 5,
+    "review": "",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1434354754i/25729896.jpg"
+  },
+  {
+    "id": 202403,
+    "title": "I fiori del male",
+    "subtitle": "",
+    "author": "Charles Baudlaire",
+    "year": "2024",
+    "dateStarted": "2024-02-01",
+    "dateFinished": "2024-03-01",
+    "rating": 5,
+    "review": " ",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1517477952i/30063791.jpg"
+  },
+  {
+    "id": 202402,
+    "title": "Teogonia",
+    "subtitle": " ",
+    "author": "Hesiod",
+    "year": "2024",
+    "dateStarted": "2024-02-01",
+    "dateFinished": "2022-02-23",
+    "rating": 4,
+    "review": " ",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1555781801i/15697876.jpg"
+  },
+  {
+    "id": 202401,
+    "title": "Dei doveri dell'uomo",
+    "subtitle": " ",
+    "author": "Giuseppe Mazzini",
+    "year": "2024",
+    "dateStarted": "2024-01-06",
+    "dateFinished": "2024-02-01",
+    "rating": 4,
+    "review": " ",
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1494115312i/35078175.jpg"
   }
 ]
