@@ -449,7 +449,7 @@ button {
 
 .book-cover img{
   object-fit: cover;
-  /* min-height: 100%; */
+  min-height: 100%;
   max-height: 100%;
   /*Per estendere l'immagine fino a riempire la copertina, togliere il commento alla riga sotto*/
   flex: 1 1 auto; 
@@ -502,6 +502,16 @@ button {
   object-fit: cover;
   min-height: 100%;
   max-height: 100%;
+  background: none;
+  border: none
+}
+
+.book-detail .book-cover img {
+  margin-bottom: 0;
+  height: fit-content;
+  object-fit: cover;
+  min-height: 100%;
+  flex: none; 
 }
 
 .book-meta {
