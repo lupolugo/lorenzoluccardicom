@@ -418,6 +418,7 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: clamp(1.25rem, 3vw, 2rem);
+  row-gap: 0.75%;
 }
 
 .book-spine {
@@ -432,6 +433,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  min-height:100%
 }
 
 .book-cover {
@@ -451,7 +453,7 @@ button {
   object-fit: cover;
   min-height: 100%;
   max-height: 100%;
-  /*Per estendere l'immagine fino a riempire la copertina, togliere il commento alla riga sotto*/
+  /*Per estendere l'immagine fino a riempire la copertina*/
   flex: 1 1 auto; 
 }
 
